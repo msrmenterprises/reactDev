@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Crud from './crud';
+import FetchData from './fetchData';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Crud/>
+    {/*Component to manage the CRUD Operation using useState <Crud/> */}
+    <FetchData/>
   </React.StrictMode>
 );
 
