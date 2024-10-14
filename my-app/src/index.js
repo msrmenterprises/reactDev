@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 // import Crud from './crud';
 // import FetchData from './fetchData';
 // import CounterApp from './counterApp';
-import CounterReducer from './counterAppReducer';
+// import CounterReducer from './counterAppReducer';
+import CrudUsingReducer from './crudUsingReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/*Component to manage the CRUD Operation using useState <Crud/> */}
     {/*Handling the search by name  <FetchData/> */}
     {/* {<CounterApp/>} */}
-    <CounterReducer/>
+    {/* <CounterReducer/> */}
+    <CrudUsingReducer/>
   </React.StrictMode>
 );
 
