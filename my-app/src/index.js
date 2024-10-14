@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Crud from './crud';
-import FetchData from './fetchData';
+// import Crud from './crud';
+// import FetchData from './fetchData';
+import CounterApp from './counterApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/*Component to manage the CRUD Operation using useState <Crud/> */}
-    <FetchData/>
+    {/*Handling the search by name  <FetchData/> */}
+    {<CounterApp/>}
   </React.StrictMode>
 );
 
