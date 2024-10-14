@@ -11,7 +11,7 @@ return (
         <span><button onClick={()=>setNumber(number+1)}>Add</button></span>&nbsp;
         <span>{number}</span>&nbsp;
         <span><button onClick={()=>setNumber(number-1)}>Remove</button></span>
-        <span><button onClick={()=>setNumber(0)}>Reset</button></span>
+        <div><button onClick={()=>setNumber(0)}>Reset</button></div>
     </div>
 
 )
