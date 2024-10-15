@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ShopCart from './shopCart';
 // import Crud from './crud';
 // import FetchData from './fetchData';
 // import CounterApp from './counterApp';
 // import CounterReducer from './counterAppReducer';
-import CrudUsingReducer from './crudUsingReducer';
+// import CrudUsingReducer from './crudUsingReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/*Handling the search by name  <FetchData/> */}
     {/* {<CounterApp/>} */}
     {/* <CounterReducer/> */}
-    <CrudUsingReducer/>
+    {/* <CrudUsingReducer/> */}
+    <ShopCart/>
   </React.StrictMode>
 );
 
