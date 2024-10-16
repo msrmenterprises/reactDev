@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CartManage from './cartmanage';
+import UseRef from './useref';
+// import CartManage from './cartmanage';
 // import ShopCart from './shopCart';
 // import Crud from './crud';
 // import FetchData from './fetchData';
@@ -21,7 +22,8 @@ root.render(
     {/* <CounterReducer/> */}
     {/* <CrudUsingReducer/> */}
     {/* <ShopCart/> */}
-    <CartManage/>
+    {/* <CartManage/> */}
+    <UseRef/>
   </React.StrictMode>
 );
 
