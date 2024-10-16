@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import UseRef from './useref';
+import Service from './authService';
+import WithLogComp from './withLogComp';
+// import UseRef from './useref';
 // import CartManage from './cartmanage';
 // import ShopCart from './shopCart';
 // import Crud from './crud';
@@ -23,7 +25,9 @@ root.render(
     {/* <CrudUsingReducer/> */}
     {/* <ShopCart/> */}
     {/* <CartManage/> */}
-    <UseRef/>
+    {/* <UseRef/> */}
+    <Service/>
+    <WithLogComp/>
   </React.StrictMode>
 );
 
