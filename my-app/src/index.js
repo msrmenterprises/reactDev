@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Service from './authService';
-import WithLogComp from './withLogComp';
+import PerformanceMemoCallback from './performanceMemoCallback';
+// import Service from './authService';
+// import WithLogComp from './withLogComp';
 // import UseRef from './useref';
 // import CartManage from './cartmanage';
 // import ShopCart from './shopCart';
@@ -26,8 +27,9 @@ root.render(
     {/* <ShopCart/> */}
     {/* <CartManage/> */}
     {/* <UseRef/> */}
-    <Service/>
-    <WithLogComp/>
+    {/* <Service/>
+    <WithLogComp/> */}
+    <PerformanceMemoCallback/>
   </React.StrictMode>
 );
 
